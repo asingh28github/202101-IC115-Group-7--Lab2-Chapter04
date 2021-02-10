@@ -45,5 +45,13 @@ nav ul li {
     list-style: none;
     display: inline;
     margin: 1em;
+    nav
+
+{
+    padding: 0.25em;
+}
+nav a {
+    padding: 0.25em;
+}
 }
 }
