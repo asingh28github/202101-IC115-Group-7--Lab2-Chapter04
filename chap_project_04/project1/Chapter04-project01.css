@@ -1,15 +1,17 @@
 header, footer, nav, main, article, section, figure, figcaption, h1, h2, h3, ul, li, body, div, p, img
-{margin: 0;padding: 0;
-   font-size: 100%;
-   vertical-align: baseline;
-   border: 0;
-}
-header, footer {
+{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+ }
+ header, footer {
   color: white;
-  background-color: #213643;
+  background-color: #1A237E;
 }
 nav {
-  background-color: #E8EAF6;
+  background-color: #3F51B5;
 }
 h1, h2, h3 {
  font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
@@ -17,44 +19,71 @@ h1, h2, h3 {
 body {
  font-family: Georgia, Cambria, "Times New Roman", serif;
 }
-#reviews 
-{
+#reviews {
    border-bottom: solid 3pt #213643;
-   color: #728B96;
+   color:#7986CB;
 }
 .first {
-   color: #ed8030;
-   font-style: italic;
-}
-
-a:link {
-   font-weight: bold;
-   color: #47B3D7;
-}
-a:visited {
-   color: #BB78FF;
-}
-a:hover {
-   background-color: #F50057;
-}
-
-nav ul li {
-   list-style: none;
-   display: inline;
-   margin: 1em;
-}
+    color: #7986CB;
+    font-style: italic;
+ }
+ .second {
+    color: #080808;
+ }
+ .byline {
+    color: #ed8030;
+    font-style: italic;
+ }
+ a:link {
+    font-weight: bold;
+    color: #47B3D7;
+ }
+ a:visited {
+    color: #BB78FF;
+ }
+ a:hover {
+    background-color: #F50057;
+ }
+ 
+ nav ul li {
+    list-style: none;
+    display: inline;
+    margin: 1em;
+ }
 nav {
-   padding: 0.25em;
-}
-nav a {
-   padding: 0.25em;
-}
-figure 
-{
-   margin: 2em;
+    padding: 0.25em;
+ }
+ nav a {
+    padding: 0.25em;
+ }
+ figure 
+ {
+    
+    margin: 1.5em;
    background-color: #E8EAF6;
-   padding: 1.5em;
-   border: solid 1px #C5CAE9;
-}
-h3+p+p{ margin: 2em;
-}
+    padding: 1.5em;
+    border: solid 1px #C5CAE9;
+ }
+ h3+p+p{ margin: 2em;
+ }
+ 
+ body {
+    font-size: 100%;
+    }
+    h1 { 
+       font-size: 1.5rem; 
+       padding: 1em;
+       }
+       h2 {
+           padding: 1em;
+        background-color: #3F51B5;
+        color: white;
+           font-size: 2rem;
+          }
+          h3 { font-size: 1.5rem;
+            padding: .50em;
+          background-color: #3F51B5;
+        color: white;
+    }
+    p {padding: 0.25em;
+    }

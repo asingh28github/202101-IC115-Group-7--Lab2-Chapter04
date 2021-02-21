@@ -1,0 +1,145 @@
+header, footer, nav, main, article, section, figure, figcaption, h1, h2, h3, ul, li, body, div, p, img
+header, article, footer{
+	font-family: Roboto, Cambria, serif;
+}
+nav ul li{
+	display: inline;
+}
+#mainMenu{
+	background-color: #263238;
+    padding:.50em;
+	text-align:right;
+    padding-right:90px;
+    margin:0;
+}
+h1{
+	background-image: url("images/header-background.png");
+	padding:1em;
+	color: white;
+	padding-left: 90px;
+    margin:0;
+}
+h1 span{
+	color: #FF3D00;
+}
+#secondaryMenu{
+	height: 40px;
+	padding: 2px;
+	line-height: 5px;
+	background-color: #607D8B;
+}
+ul.secondList{
+	padding-left: 120px;
+}
+
+nav a:hover{
+	background-color: #FF3D00;
+}
+nav a{
+	padding: 0.25em;
+	color: #03A9F4;
+}
+body{
+	background-color: #ECEFF1;
+}
+#maincontact{}
+div{	}
+.image{
+	text-align: center;
+}
+h2{
+	margin:0;
+}
+
+h3
+{
+	background-image: url("images/header-background.png");
+	color: white;
+	padding:10px;
+}
+section p
+{
+	padding-left: .75em;
+	margin-bottom: 10px;
+}
+section p em{
+	color: grey;
+}
+
+.actions{
+	background-color: #607D8B;
+	padding: .05em;
+}
+
+#button{
+	display: inline-block;
+}
+
+div.actions ul li{
+	display: inline;
+	background-color: #FF3D00;
+	border: 1px none;
+	border-radius: 5px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	margin-right: 5px;
+}
+
+.actionEdit{
+	color: white;
+	text-decoration: none;
+	background-image: url("images/edit.png");
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-top: 2px;
+}
+
+
+.actionFlag{
+	color: white;
+	text-decoration: none;
+	background-image: url("images/flag.png");
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-top: 2px;
+}
+
+a[href^="tel:+14258828080"]{
+	background: url("images/call.png") no-repeat 0 3px;
+	padding-left: 15px;
+}
+
+a[href^="mailto:jacksmith@microsoft.com"]{
+	background: url("images/email.png") no-repeat 0 3px;
+	padding-left: 15px;
+}
+#chart{
+	width: 105%;	
+	margin-left:-40px;
+}
+footer{
+	background-color: #263238;
+	color: white;
+	padding-left:100px;
+    height: 3em;
+}
+
+footer p{
+	margin:5px;
+}
+a{
+	font-family: Roboto, Georgia, serif;
+}
+
+footer p a{
+	color: #03A9F4;
+}
+
+#copyright{
+	font-style: italic;
+}
