@@ -1,0 +1,68 @@
+header, footer, nav, main, article, section, figure, figcaption,
+ h1, h2, h3, ul, li, body, div, p, img
+{
+font-family: 'Merriweather', serif;
+background-image: url("images/art-background4.jpg");
+background-size: cover;
+font-family: 'Merriweather', serif;
+}
+header,footer 
+{
+background:rgba(33,33,33,0.5) ;
+color:white;
+}
+header, main, footer{
+box-sizing: border-box;
+width: 30em;
+margin-left: 3em;
+}
+header{
+    margin-top: 1em;
+    background: rgba(33,33,33,0.5);
+    margin-bottom: 4em;
+}
+h1 {
+    background: rgba(33,33,33,0.5);
+    margin: 0;
+}
+
+header>h2{
+    background: rgba(33,33,33,0.5);
+    font-size: small;
+    color: grey;
+    padding-bottom: 2em;
+}
+main{
+    background: rgba(255, 255, 255, 0.5);
+    margin-bottom:0;
+}
+ #announcement{
+    background: rgba(255, 255, 255, 0.5);
+    background-color:grey;
+    margin:0;
+}
+h2{
+    background:rgba(244, 244, 244, 0.5);
+    margin:0;
+}
+
+#timeline {
+    background: rgba(66, 66, 66, 0.5);
+    padding-bottom: 1.25em;
+    color: white;
+    margin:0;
+}
+ main #footnote {
+     margin-top: 0;
+    color: red;
+    font-style: italic;
+    background: rgba(255, 255, 255, 0.5);
+    background-color: grey;
+    
+}
+footer, h2{
+    background: rgba(33,33,33,0.5) ;
+}
+h2{
+
+}
