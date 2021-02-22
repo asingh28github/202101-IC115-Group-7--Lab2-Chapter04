@@ -10,6 +10,10 @@ header, footer, nav, main, article, section, figure, figcaption, h1, h2, h3, ul,
   color: white;
   background-color: #1A237E;
 }
+header p{
+   padding-left: 1em;
+   margin-bottom: .50em;
+}
 nav {
   background-color: #3F51B5;
 }
@@ -19,16 +23,15 @@ h1, h2, h3 {
 body {
  font-family: Georgia, Cambria, "Times New Roman", serif;
 }
-#reviews {
-   border-bottom: solid 3pt #213643;
-   color:#7986CB;
-}
-.first {
+
+main .first {
     color: #7986CB;
     font-style: italic;
  }
  .second {
     color: #080808;
+    padding-left: 2em;
+    margin: 1em;
  }
  .byline {
     color: #ed8030;
@@ -44,7 +47,10 @@ body {
  a:hover {
     background-color: #F50057;
  }
- 
+ #reviews {
+   border-bottom: solid 3pt #213643;
+   color:#7986CB;
+}
  nav ul li {
     list-style: none;
     display: inline;
@@ -64,7 +70,11 @@ nav {
     padding: 1.5em;
     border: solid 1px #C5CAE9;
  }
+ #reviews .second{
+    padding-left: 0;
+ }
  h3+p+p{ margin: 2em;
+
  }
  
  body {
